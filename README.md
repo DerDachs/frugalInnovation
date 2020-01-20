@@ -1,2 +1,1 @@
-# frugalInnovation
-WebApp for frugal innovations
+# Frugal Innovation
