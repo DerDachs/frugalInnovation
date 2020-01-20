@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{partial "head.html" . }}
+    <title>{{.Site.Title}} | Startseite</title>
+
+<body>
+
+    {{- partial "navbar.html" . -}}
+    <div class="background">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <h1 class="display-1 background-title" style="font-size: 6vw;">Frugal Innovation</h1>
+                    <p class="lead background-title">Minimize the cost, maximize the product! </p>
+                </div>
+            </div>
+            <a href="#section2" class="scroll-down" address="true"></a>
+        </div>
+    </div>
+
+    <div class="background2" id="section2">
+        <!-- Weltkarte 2 -->
+        <!-- CSSMap - Continents -->
+        <div style="text-align: center;">
+            <h5 class="display-5">Wählen Sie einen Kontinent aus</h5>
+        </div>
+
+        <div id="map-continents" style="background-color: whitesmoke;">
+            <ul class="continents">
+                <li class="c1"><a href="/projekte/afrika">Afrika</a></li>
+                <li class="c2"><a href="/projekte/asien">Asien</a></li>
+                <li class="c3"><a href="/projekte/ozeanien">Ozeanien</a></li>
+                <li class="c4"><a href="/projekte/europa">Europa</a></li>
+                <li class="c5"><a href="/projekte/nordamerika">Nordamerika</a></li>
+                <li class="c6"><a href="/projekte/suedamerika">Südamerika</a></li>
+            </ul>
+        </div>
+        <!-- END OF THE CSSMap - Continents -->
+    </div>
+
+ {{- partial "footer.html" . -}}
+
+</body>
+
+</html>

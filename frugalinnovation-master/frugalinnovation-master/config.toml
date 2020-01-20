@@ -1,0 +1,60 @@
+theme = "frugalinnovation"
+title = "Frugal Innovation"
+	
+[[menu.main]]
+    name = "Unsere Projekte"
+    url = "#"
+    weight = 1
+    identifier = "dropdown"
+	
+[[menu.main]]
+    name = "Afrika"
+    url = "/projekte/afrika/"
+    weight = 1
+    parent = "dropdown"   
+
+[[menu.main]]
+    name = "Asien"
+    url = "/projekte/asien/"
+    weight = 2
+    parent = "dropdown" 
+
+[[menu.main]]
+    name = "Europa"
+    url = "/projekte/europa/"
+    weight = 3
+    parent = "dropdown" 
+
+[[menu.main]]
+    name = "Nordamerika"
+    url = "/projekte/nordamerika/"
+    weight = 4
+    parent = "dropdown" 
+
+[[menu.main]]
+    name = "Ozeanien"
+    url = "/projekte/ozeanien/"
+    weight = 5
+    parent = "dropdown" 
+
+[[menu.main]]
+    name = "Südamerika"
+    url = "/projekte/suedamerika/"
+    weight = 6
+    parent = "dropdown"
+
+	
+[[menu.footer]]
+    identifier = "Über Uns"
+    pre = "<p>Über Uns</p>"
+    url = "#"
+    weight = 1
+
+[[menu.footer]]
+    identifier = "Projekte"
+    pre = "<p>Projekte</p>"
+    url = "#"
+    weight = 2
+	
+
+[params]

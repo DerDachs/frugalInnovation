@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{- partial "head-projekte.html" . -}}
+
+    <title>{{.Site.Title}} | Projekte in Afrika</title>
+</head>
+
+
+<body>
+    {{- partial "navbar.html" . -}}
+    <div style="min-height: 88vh;">
+        <div class="container" style="padding-top:100px;">
+            <h2 class="h1">Projekte in Afrika</h2>
+            <br>
+            <div class="row">
+                <div class="col-3">
+
+                    {{partial "filter.html" . }}
+
+                </div>
+
+
+                <div class="col-9">
+                    <div class="grid">
+                        <a href="#" data-toggle="modal" data-target=".bd-example-modal-xl">
+                            <div class="element-item produkte gesundheitswesen grassroots">
+                                <p class="logo"><img src="../../images/logo_ch4pa.png" alt="">
+                                </p>
+                                <h3 class="name">CH4PA</h3>
+                                <p class="subtitle">Prototypen für die multifunktionale Arbeit für Kleinbauern</p>
+                                <p class="desc">kostengünstiges, modulares Fahrzeugkonzept Arbeits- und
+                                    Transportbedürfnisse
+                                </p>
+                            </div>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <div class="element-item produkte geraete grassroots">
+                                <p class="logo"><img
+                                        src="https://www.gstatic.com/images/branding/product/1x/google_fonts_ios_76dp.png"
+                                        alt="">
+                                </p>
+                                <h3 class="name">Mitti Cool</h3>
+                                <p class="subtitle">Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                                <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem
+                                    Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                            </div>
+                        </a>
+
+
+
+                        <a href="https://www.websiteplanet.com/blog/best-free-fonts/" target="_blank">
+                            <div class="element-item dienst hotel corporate">
+                                <p class="logo"><img
+                                        src="https://www.gstatic.com/images/branding/product/1x/google_fonts_ios_76dp.png"
+                                        alt="">
+                                </p>
+                                <h3 class="name">Motel One</h3>
+                                <p class="subtitle">Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                                <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem
+                                    Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                            </div>
+                        </a>
+
+
+
+                        <a href="https://www.mixfont.com/" target="_blank">
+                            <div class="element-item dienst gesundheitswesen corporate">
+                                <p class="logo"><img
+                                        src="https://www.gstatic.com/images/branding/product/1x/google_fonts_ios_76dp.png"
+                                        alt="">
+                                </p>
+                                <h3 class="name">Aravind Eye Hospitals</h3>
+                                <p class="subtitle">Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                                <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem
+                                    Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style=>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="container">
+                        <div class="row">
+                            <h1 class="display-5">CH4PA</h1>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+
+                                <p><small>Produktivitätssteigerungen durch Maschineneinsatz waren bisher für
+                                        Kleinbauern in Entwicklungs- und Schwellenländern wegen der hohen
+                                        Anschaffungs- und
+                                        Betriebskosten nicht möglich.</small>
+                                </p>
+
+                                <p><small>Spirit Design entwickelte den Prototypen für das multifunktionale
+                                        Arbeits-
+                                        und Transportfahrzeug für Kleinbauern in Schwellenländern im Rahmen des
+                                        von
+                                        der
+                                        Wirtschaftsagentur Wien geförderten Forschungs- und
+                                        Entwicklungsprojektes.</small></p>
+
+                                <p><small>Seinem Haupteinsatzzweck im landwirtschaftlichen Transport kommt er
+                                        durch
+                                        seine maximale Ladekapazität entgegen. Der solide Rahmen erlaubt
+                                        verschiedenste
+                                        Fahrzeugaufbauten und die flexible Gestaltung.</small></p>
+                                <br>
+
+                                <p style="font-size: 12px;">Link: <a
+                                        href="http://www.spiritdesign.com/work/eigenentwicklungen/ch4pa">http://www.spiritdesign.com/work/eigenentwicklungen/ch4pa</a>
+                                </p>
+
+
+
+                            </div>
+                            <div class="col-lg-8">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="/images/ch4pa.png" class="d-block w-100 img-thumbnail" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    {{ partial "footer" . }}
+
+    <script>
+        // external js: isotope.pkgd.js
+
+        // init Isotope
+        var $grid = $('.grid').isotope({
+            itemSelector: '.element-item'
+        });
+
+        // store filter for each group
+        var filters = {};
+
+        $('.filters').on('change', function (event) {
+            var $select = $(event.target);
+            // get group key
+            var filterGroup = $select.attr('value-group');
+            // set filter for group
+            filters[filterGroup] = event.target.value;
+            // combine filters
+            var filterValue = concatValues(filters);
+            // set filter for Isotope
+            $grid.isotope({ filter: filterValue });
+        });
+
+        // flatten object by concatting values
+        function concatValues(obj) {
+            var value = '';
+            for (var prop in obj) {
+                value += obj[prop];
+            }
+            return value;
+        }
+
+    </script>
+
+
+    <script>
+        // quick search regex
+        var qsRegex;
+
+        // init Isotope
+        var $grid = $('.grid').isotope({
+            itemSelector: '.element-item',
+            filter: function () {
+                return qsRegex ? $(this).text().match(qsRegex) : true;
+            }
+        });
+
+        // use value of search field to filter
+        var $quicksearch = $('.quicksearch').keyup(debounce(function () {
+            qsRegex = new RegExp($quicksearch.val(), 'gi');
+            $grid.isotope();
+        }, 200));
+
+        // debounce so filtering doesn't happen every millisecond
+        function debounce(fn, threshold) {
+            var timeout;
+            threshold = threshold || 100;
+            return function debounced() {
+                clearTimeout(timeout);
+                var args = arguments;
+                var _this = this;
+                function delayed() {
+                    fn.apply(_this, args);
+                }
+                timeout = setTimeout(delayed, threshold);
+            };
+        }
+    </script>
+
+    <!--<script>
+        // external js: isotope.pkgd.js
+
+        // init Isotope
+        var $grid = $('.grid').isotope({
+            itemSelector: '.element-item'
+        });
+
+        // store filter for each group
+        var filters = {};
+
+        $('.filters').on('click', '.jancuk', function () {
+            var $this = $(this);
+            // get group key
+            var $buttonGroup = $this.parents('.button-group');
+            var filterGroup = $buttonGroup.attr('data-filter-group');
+            // set filter for group
+            filters[filterGroup] = $this.attr('data-filter');
+            // combine filters
+            var filterValue = concatValues(filters);
+            // set filter for Isotope
+            $grid.isotope({ filter: filterValue });
+        });
+
+        // change is-checked class on buttons
+        $('.button-group').each(function (i, buttonGroup) {
+            var $buttonGroup = $(buttonGroup);
+            $buttonGroup.on('click', 'jancuk', function () {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $(this).addClass('is-checked');
+            });
+        });
+
+        // flatten object by concatting values
+        function concatValues(obj) {
+            var value = '';
+            for (var prop in obj) {
+                value += obj[prop];
+            }
+            return value;
+        }
+    </script>-->
+
+
+</body>
+
+</html>
