@@ -43,18 +43,4 @@ title = "Frugal Innovation"
     weight = 6
     parent = "dropdown"
 
-	
-[[menu.footer]]
-    identifier = "Über Uns"
-    pre = "<p>Über Uns</p>"
-    url = "#"
-    weight = 1
-
-[[menu.footer]]
-    identifier = "Projekte"
-    pre = "<p>Projekte</p>"
-    url = "#"
-    weight = 2
-	
-
 [params]
