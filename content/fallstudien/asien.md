@@ -1,6 +1,6 @@
 ---
 title: "Asien"
 type: template
-url: /projekte/asien/
+url: /fallstudien/asien/
 layout: asien
 ---

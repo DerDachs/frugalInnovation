@@ -2,44 +2,44 @@ theme = "frugalinnovation"
 title = "Frugal Innovation"
 	
 [[menu.main]]
-    name = "Unsere Projekte"
+    name = "Fallstudien"
     url = "#"
     weight = 1
     identifier = "dropdown"
 	
 [[menu.main]]
     name = "Afrika"
-    url = "/projekte/afrika/"
+    url = "/fallstudien/afrika/"
     weight = 1
     parent = "dropdown"   
 
 [[menu.main]]
     name = "Asien"
-    url = "/projekte/asien/"
+    url = "/fallstudien/asien/"
     weight = 2
     parent = "dropdown" 
 
 [[menu.main]]
     name = "Europa"
-    url = "/projekte/europa/"
-    weight = 3
-    parent = "dropdown" 
-
-[[menu.main]]
-    name = "Nordamerika"
-    url = "/projekte/nordamerika/"
+    url = "/fallstudien/europa/"
     weight = 4
     parent = "dropdown" 
 
 [[menu.main]]
-    name = "Ozeanien"
-    url = "/projekte/ozeanien/"
+    name = "Nordamerika"
+    url = "/fallstudien/nordamerika/"
     weight = 5
     parent = "dropdown" 
 
 [[menu.main]]
+    name = "Australien"
+    url = "/fallstudien/australien/"
+    weight = 3
+    parent = "dropdown" 
+
+[[menu.main]]
     name = "Südamerika"
-    url = "/projekte/suedamerika/"
+    url = "/fallstudien/suedamerika/"
     weight = 6
     parent = "dropdown"
 

@@ -1,6 +1,6 @@
 ---
 title: "Nordamerika"
 type: template
-url: /projekte/nordamerika/
+url: /fallstudien/nordamerika/
 layout: nordamerika
 ---

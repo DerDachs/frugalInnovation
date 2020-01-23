@@ -1,7 +1,7 @@
 ---
 title: "Europa"
 type: template
-url: /projekte/europa/
+url: /fallstudien/europa/
 layout: europa
 ---
 

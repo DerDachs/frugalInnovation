@@ -1,6 +1,6 @@
 ---
 title: "Afrika"
 type: template
-url: /projekte/afrika/
+url: /fallstudien/afrika/
 layout: afrika
 ---
