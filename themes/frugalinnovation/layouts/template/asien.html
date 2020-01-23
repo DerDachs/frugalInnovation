@@ -22,58 +22,23 @@
 
                 <div class="col-9">
                     <div class="grid">
-                        <a href="#" data-toggle="modal" data-target=".bd-aravind-modal-xl">
-                            <div class="element-item dienst gesundheitswesen corporate">
-                                <p class="logo"><img src="../../images/logo-aravind.png" alt="">
-                                </p>
-                                <h3 class="name">Aravind Eye Hospital</h3>
-                                <p class="subtitle">Indische Krankenhauskette für kostengünstige Augenbehandlungen</p>
-                            </div>
-                        </a>
+                        {{- partial "karte_aravind.html" . -}}
 
-                       <a href="#" data-toggle="modal" data-target=".bd-jaipur-modal-xl">
-                            <div class="element-item produkte gesundheitswesen grassroots">
-                                <p class="logo"><img src="../../images/logo-jaipurFoot.png" alt=""></p>
-                                <h3 class="name">Jaipur Foot</h3>
-                                <p class="subtitle">Beinprothese auf Gummi-Basis</p>
-                            </div>
-                        </a>
-                        <a href="#" data-toggle="modal" data-target=".bd-clay-modal-xl">
-                            <div class="element-item produkte geraete grassroots">
-                                <p class="logo"><img src="../../images/logo-clay.png" alt=""></p>
-                                <h3 class="name">Clay Refrigerator</h3>
-                                <p class="subtitle">Lehmkühlschrank mit Kühlung durch Wasserdampf</p>
-                            </div>
-                        </a>
-                        <a href="#" data-toggle="modal" data-target=".bd-bharat-modal-xl">
-                            <div class="element-item produkte mobilitaet corporate">
-                                <p class="logo"><img src="../../images/logo-daimler.png" alt=""></p>
-                                <h3 class="name">BharatBenz</h3>
-                                <p class="subtitle">Nutzfahrzeuge für den indischen Markt </p>
-                            </div>
-                        </a>
-                        <a href="#" data-toggle="modal" data-target=".bd-crop-modal-xl">
-                            <div class="element-item produkte landwirtschaft corporate">
-                                <p class="logo"><img src="../../images/logo-claas.png" alt=""></p>
-                                <h3 class="name">Crop Tiger</h3>
-                                <p class="subtitle">Mähdrescher mit Kettenantrieb für die Reisernte</p>
-                            </div>
-                        </a>
-                        <a href="#" data-toggle="modal" data-target=".bd-oneDollar-modal-xl">
-                            <div class="element-item produkte gesundheitswesen grassroots">
-                                <p class="logo"><img src="../../images/logo-oneDollarGlasses.png" alt=""></p>
-                                <h3 class="name">Ein Dollar Brille</h3>
-                                <p class="subtitle">Kostengünstige Brille für Schwellen- und Entwicklungsländer</p>
-                            </div>
-                        </a>
-                        <a href="#" data-toggle="modal" data-target=".bd-quechua-modal-xl">
-                            <div class="element-item produkte gesundheitswesen grassroots">
-                                <p class="logo"><img src="../../images/logo-quechua.png" alt="">
-                                </p>
-                                <h3 class="name">Quechua Wurfzelt</h3>
-                                <p class="subtitle">Campingzelt mit spezieller Wurftechnik für einen schnellen Aufbau</p>
-                            </div>
-                        </a>
+                        {{- partial "karte_jaipur.html" . -}}
+
+                        {{- partial "karte_clay.html" . -}}
+
+                        {{- partial "karte_bharat.html" . -}}
+
+                        {{- partial "karte_crop.html" . -}}
+
+                        {{- partial "karte_brille.html" . -}}
+
+                        {{- partial "karte_quecha.html" . -}}
+
+                        {{- partial "karte_vscan.html" . -}}
+
+
                     </div>
                 </div>
             </div>
@@ -373,6 +338,53 @@
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src="/images/quechuaWurfzelt.png" class="d-block w-100 img-thumbnail" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-vscan-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style=>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="container">
+                        <div class="row">
+                            <h1 class="display-5">VScan</h1>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+
+                                <p><small>Mit dem VScan hat der amerikanische Konzern GE Healthcare ein mobiles,
+                                        batteriebetriebenes Ultraschallgerät entwickelt. Das Gerät bietet alle
+                                        standardmäßigen Ultraschallfunktionen und verzichtet bewusst auf
+                                        Zusatzfunktionen, die eine Basisuntersuchung überschreiten. Zu seinen
+                                        Besonderheiten zählt die Dualsonden-Technik, die einen nicht-invasiven Blick in
+                                        oberflächennahe und in tiefe Schichten des Körpers ermöglicht, sowie der
+                                        Batteriebetrieb. Das Gerät wurde zunächst für Schwellenländer entwickelt, wird
+                                        nun aber auch in Industrienationen eingesetzt.</small></p>
+                                <br>
+
+                                <p style="font-size: 12px;">Link: <a
+                                        href="https://www.ge-ultraschall.com/vscan-portfolio/vscan-mit-dualsonde/">Weitere
+                                        Infos!</a>
+                                </p>
+                            </div>
+                            <div class="col-lg-8">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="/images/vscan.png" class="d-block w-100 img-thumbnail"
+                                                alt="...">
                                         </div>
                                     </div>
                                 </div>
