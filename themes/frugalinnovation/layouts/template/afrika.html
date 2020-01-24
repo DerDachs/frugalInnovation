@@ -115,6 +115,15 @@
             $grid.isotope({ filter: filterValue });
         });
 
+
+        $('.button--reset').on('click', function () {
+            // reset filters
+            filters = {};
+            $grid.isotope({ filter: '*' });
+            $('.filter-select').val('*');
+        });
+        
+
         // flatten object by concatting values
         function concatValues(obj) {
             var value = '';
@@ -125,6 +134,7 @@
         }
 
     </script>
+
 
 
 
